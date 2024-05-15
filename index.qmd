@@ -1,0 +1,95 @@
+---
+title: Summary
+---
+
+1.  **Foundation in Mathematics and Statistics**:
+
+    -   Basic Probability Theory
+
+    -   Descriptive Statistics (mean, median, mode, variance, standard deviation)
+
+    -   Probability Distributions (normal, binomial, Poisson)
+
+    -   Hypothesis Testing (t-tests, chi-square tests, ANOVA)
+
+    -   Regression Analysis (linear regression, logistic regression)
+
+2.  **Inferential Statistics**:
+
+    -   Sampling Techniques (random sampling, stratified sampling)
+
+    -   Confidence Intervals
+
+    -   Hypothesis Testing (null hypothesis, p-values, Type I and Type II errors)
+
+    -   Confidence Intervals vs. Hypothesis Testing
+
+    -   Power Analysis
+
+3.  **Machine Learning Fundamentals**:
+
+    -   Introduction to Machine Learning
+
+    -   Supervised Learning vs. Unsupervised Learning vs. Reinforcement Learning
+
+    -   Model Evaluation and Selection (cross-validation, bias-variance tradeoff)
+
+    -   Feature Engineering (feature selection, feature scaling)
+
+    -   Model Evaluation Metrics (accuracy, precision, recall, F1 score, ROC curve, AUC)
+
+4.  **Supervised Learning Algorithms**:
+
+    -   Linear Regression
+
+    -   Logistic Regression
+
+    -   Decision Trees
+
+    -   Random Forests
+
+    -   Support Vector Machines (SVM)
+
+    -   k-Nearest Neighbors (k-NN)
+
+    -   Naive Bayes
+
+5.  **Unsupervised Learning Algorithms**:
+
+    -   K-Means Clustering
+
+    -   Hierarchical Clustering
+
+    -   Principal Component Analysis (PCA)
+
+    -   t-Distributed Stochastic Neighbor Embedding (t-SNE)
+
+    -   Association Rule Learning (Apriori Algorithm)
+
+6.  **Deep Learning**:
+
+    -   Neural Networks Basics
+
+    -   Feedforward Neural Networks
+
+    -   Convolutional Neural Networks (CNNs)
+
+    -   Recurrent Neural Networks (RNNs)
+
+    -   Long Short-Term Memory (LSTM) Networks
+
+    -   Gated Recurrent Units (GRUs)
+
+7.  **Model Deployment and Production**:
+
+    -   Model Deployment Techniques (RESTful APIs, Docker containers)
+
+    -   Model Monitoring and Maintenance
+
+    -   Ethical Considerations in Machine Learning
+
+8.  **Practical Projects and Hands-On Experience**:
+
+    -   Work on real-world datasets and projects to apply what you've learned.
+
+    -   Kaggle competitions, online courses with practical exercises, and personal projects can all be valuable.
