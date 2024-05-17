@@ -1,0 +1,41 @@
+---
+title: Foundation in mathematics and Statistics
+---
+
+1.  **Basic Probability Theory**:
+
+    -   Probability theory is the branch of mathematics concerned with analyzing random phenomena. It deals with calculating the likelihood of events occurring.
+
+    -   Key concepts include sample spaces, events, probability axioms, conditional probability, independence, and Bayes' theorem.
+
+    -   A good starting point for learning probability theory is the book "Introduction to Probability" by Joseph K. Blitzstein and Jessica Hwang. It covers fundamental concepts in probability theory with clear explanations and examples.
+
+2.  **Descriptive Statistics**:
+
+    -   Descriptive statistics involves methods for summarizing and describing the features of a dataset. It provides simple summaries about the sample and the measures of variability, such as the mean, median, mode, variance, and standard deviation.
+
+    -   "Descriptive Statistics" by Robert R. Johnson and Patricia Kuby is a comprehensive textbook that covers basic descriptive statistics concepts and methods.
+
+3.  **Probability Distributions**:
+
+    -   Probability distributions describe the likelihood of each outcome in a sample space.
+
+    -   Key distributions include the normal distribution (bell curve), binomial distribution (for binary outcomes), and Poisson distribution (for count data).
+
+    -   "Introduction to Probability and Statistics" by William Mendenhall, Robert J. Beaver, and Barbara M. Beaver provides a solid introduction to various probability distributions and their properties.
+
+4.  **Hypothesis Testing**:
+
+    -   Hypothesis testing is a statistical method used to make inferences about a population parameter based on sample data.
+
+    -   It involves setting up a null hypothesis (H0) and an alternative hypothesis (Ha), selecting a significance level, conducting a test statistic calculation, and making a decision based on the test statistic and significance level.
+
+    -   "Statistics for Business and Economics" by Paul Newbold, William L. Carlson, and Betty Thorne covers hypothesis testing in detail and provides practical examples relevant to business and economics.
+
+5.  **Regression Analysis**:
+
+    -   Regression analysis is a statistical technique used to model the relationship between a dependent variable and one or more independent variables.
+
+    -   Linear regression is used when the relationship between the variables is linear, while logistic regression is used when the dependent variable is binary.
+
+    -   "An Introduction to Statistical Learning" by Gareth James, Daniela Witten, Trevor Hastie, and Robert Tibshirani is a highly regarded textbook that covers regression analysis and other key machine learning concepts in a clear and accessible manner.

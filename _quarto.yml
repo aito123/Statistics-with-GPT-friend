@@ -6,6 +6,11 @@ website:
   navbar:
     left:
       - href: index.qmd
+      - text: "Topics"
+        menu: 
+          - href: Topic1.qmd
+            text: Mathematics and Statistics
+        
 
 format:
   html:

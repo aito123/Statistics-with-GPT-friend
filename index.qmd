@@ -2,7 +2,7 @@
 title: Summary
 ---
 
-1.  **Foundation in Mathematics and Statistics**:
+1.  [**Foundation in Mathematics and Statistics**](Topic1.qmd):
 
     -   Basic Probability Theory
 
