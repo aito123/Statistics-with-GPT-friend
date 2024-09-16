@@ -69,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -111,6 +140,19 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#concepts" id="toc-concepts" class="nav-link" data-scroll-target="#concepts">Concepts</a>
+  <ul class="collapse">
+  <li><a href="#probability" id="toc-probability" class="nav-link" data-scroll-target="#probability">1. <strong>Probability</strong>:</a></li>
+  <li><a href="#sample-space-s" id="toc-sample-space-s" class="nav-link" data-scroll-target="#sample-space-s">2. <strong>Sample Space (S)</strong>:</a></li>
+  <li><a href="#event-e" id="toc-event-e" class="nav-link" data-scroll-target="#event-e">3. <strong>Event (E)</strong>:</a></li>
+  <li><a href="#probability-of-an-event" id="toc-probability-of-an-event" class="nav-link" data-scroll-target="#probability-of-an-event">4. <strong>Probability of an Event</strong>:</a></li>
+  <li><a href="#complementary-events" id="toc-complementary-events" class="nav-link" data-scroll-target="#complementary-events">5. <strong>Complementary Events</strong>:</a></li>
+  <li><a href="#independent-events" id="toc-independent-events" class="nav-link" data-scroll-target="#independent-events">6. <strong>Independent Events</strong>:</a></li>
+  <li><a href="#conditional-probability" id="toc-conditional-probability" class="nav-link" data-scroll-target="#conditional-probability">7. <strong>Conditional Probability</strong>:</a></li>
+  <li><a href="#bayes-theorem" id="toc-bayes-theorem" class="nav-link" data-scroll-target="#bayes-theorem">8. <strong>Bayes’ theorem</strong>:</a></li>
+  </ul></li>
+  <li><a href="#why-are-these-concepts-important-in-the-real-world" id="toc-why-are-these-concepts-important-in-the-real-world" class="nav-link" data-scroll-target="#why-are-these-concepts-important-in-the-real-world">Why Are These Concepts Important in the Real World?</a></li>
+  <li><a href="#recommended-books" id="toc-recommended-books" class="nav-link" data-scroll-target="#recommended-books">Recommended books</a></li>
   </ul>
 </nav>
     </div>
@@ -153,8 +195,143 @@ ul.task-list li input[type="checkbox"] {
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
 <p>Probability theory is the branch of mathematics concerned with analyzing random phenomena. It deals with calculating the likelihood of events occurring.</p>
+</section>
+<section id="concepts" class="level2">
+<h2 class="anchored" data-anchor-id="concepts">Concepts</h2>
 <p>Key concepts include sample spaces, events, probability axioms, conditional probability, independence, and Bayes’ theorem.</p>
-<p>Recommended books: A good starting point for learning probability theory is the book “Introduction to Probability” by Joseph K. Blitzstein and Jessica Hwang. It covers fundamental concepts in probability theory with clear explanations and examples.</p>
+<section id="probability" class="level3">
+<h3 class="anchored" data-anchor-id="probability">1. <strong>Probability</strong>:</h3>
+<p><strong>Probability</strong> measures the likelihood that a specific event will occur. It is a number between 0 and 1:</p>
+<ul>
+<li><p><strong>0</strong> means the event will <strong>never happen</strong> (impossible event).</p></li>
+<li><p><strong>1</strong> means the event is <strong>certain</strong> to happen.</p></li>
+</ul>
+<p>For example, if you flip a fair coin, the probability of getting heads is <span class="math inline">\(P(Heads)=0.5\)</span> (or 50%).</p>
+<p>Probability is a way of quantifying how likely an event is to happen. It’s usually expressed as a number between 0 and 1, where:</p>
+<p>0 means the event is impossible (it will never happen). 1 means the event is certain (it will definitely happen).</p>
+<section id="why-its-important" class="level4">
+<h4 class="anchored" data-anchor-id="why-its-important">Why It’s Important:</h4>
+<p>Probability helps us make informed decisions when dealing with uncertainty. It’s used in a wide range of fields—finance, engineering, medicine, etc.—to predict outcomes and risks.</p>
+</section>
+</section>
+<section id="sample-space-s" class="level3">
+<h3 class="anchored" data-anchor-id="sample-space-s">2. <strong>Sample Space (S)</strong>:</h3>
+<p>The <strong>sample space</strong> is the set of all possible outcomes of an experiment.</p>
+<ul>
+<li>Example: When rolling a six-sided die, the sample space is: <span class="math inline">\(S = \{1, 2, 3, 4, 5, 6\}\)</span></li>
+</ul>
+<p>The sample space is the set of all possible outcomes of a random experiment. Example: If you roll a die, the sample space is {1, 2, 3, 4, 5, 6}.</p>
+<section id="why-its-important-1" class="level4">
+<h4 class="anchored" data-anchor-id="why-its-important-1">Why It’s Important:</h4>
+<p>Understanding the sample space is critical because it defines all possible outcomes and allows us to calculate the probability of specific events happening.</p>
+</section>
+</section>
+<section id="event-e" class="level3">
+<h3 class="anchored" data-anchor-id="event-e">3. <strong>Event (E)</strong>:</h3>
+<p>An <strong>event</strong> is a specific outcome or a set of outcomes within the sample space. It’s the occurrence we’re interested in.</p>
+<ul>
+<li>Example: In rolling a die, the event “rolling an even number” can be written as: <span class="math inline">\(E = \{2, 4, 6\}\)</span></li>
+</ul>
+<p>An event is a subset of the sample space. It represents the outcome or group of outcomes you’re interested in. Example: If you want to know the probability of rolling an even number on a die, the event (E) is {2, 4, 6}.</p>
+<section id="why-its-important-2" class="level4">
+<h4 class="anchored" data-anchor-id="why-its-important-2">Why It’s Important:</h4>
+<p>An event helps us focus on the outcomes we care about. In the above example, we’re interested in even numbers, and the event is formed by the favorable outcomes (2, 4, and 6).</p>
+</section>
+</section>
+<section id="probability-of-an-event" class="level3">
+<h3 class="anchored" data-anchor-id="probability-of-an-event">4. <strong>Probability of an Event</strong>:</h3>
+<p>To calculate the probability of an event <span class="math inline">\(E\)</span>, use the formula:</p>
+<p><span class="math display">\[
+P(E) = \frac{\text{Number of favorable outcomes}}{\text{Total number of possible outcomes}}
+\]</span></p>
+<ul>
+<li>Example: If you want to find the probability of rolling an even number on a six-sided die: <span class="math inline">\(P(\text{Even}) = \frac{3}{6} = 0.5\)</span></li>
+</ul>
+<section id="why-its-important-3" class="level4">
+<h4 class="anchored" data-anchor-id="why-its-important-3">Why It’s Important:</h4>
+<p>This formula gives you a precise way to quantify how likely a particular event is, which is essential for making predictions or calculating risks.</p>
+</section>
+</section>
+<section id="complementary-events" class="level3">
+<h3 class="anchored" data-anchor-id="complementary-events">5. <strong>Complementary Events</strong>:</h3>
+<p>The <strong>complement</strong> of an event <span class="math inline">\(E\)</span> is the event that <span class="math inline">\(E\)</span> does <strong>not</strong> happen. The probability of the complement is:</p>
+<p><span class="math display">\[
+P(\text{Not } E) = 1 - P(E)
+\]</span> or</p>
+<p><span class="math display">\[
+P(A') = 1 - P(A)
+\]</span></p>
+<ul>
+<li>Example: If the probability of rain today is 0.3, the probability that it <strong>won’t rain</strong> is: <span class="math inline">\(P(\text{No Rain}) = 1 - 0.3 = 0.7\)</span></li>
+</ul>
+<section id="why-its-important-4" class="level4">
+<h4 class="anchored" data-anchor-id="why-its-important-4">Why It’s Important:</h4>
+<p>Complementary events cover all possible outcomes. If you know the probability of an event happening, you can easily calculate the probability of it not happening.</p>
+</section>
+</section>
+<section id="independent-events" class="level3">
+<h3 class="anchored" data-anchor-id="independent-events">6. <strong>Independent Events</strong>:</h3>
+<p>Two events are <strong>independent</strong> if the outcome of one event does <strong>not</strong> affect the outcome of the other.</p>
+<ul>
+<li>Example: If you flip a coin and roll a die, the result of the coin flip (heads or tails) does not affect what number you roll on the die. So, these events are independent.</li>
+</ul>
+<p>For independent events <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span>, the probability of both happening is:</p>
+<p><span class="math display">\[
+P(A \cap B) = P(A) \times P(B)
+\]</span></p>
+<p>or more simply:</p>
+<p><span class="math display">\[
+P(A \text{ and } B) = P(A) \times P(B)
+\]</span></p>
+<section id="why-its-important-5" class="level4">
+<h4 class="anchored" data-anchor-id="why-its-important-5">Why It’s Important:</h4>
+<p>Understanding independence is key in more complex probability problems, where you need to calculate the likelihood of multiple events occurring together.</p>
+</section>
+</section>
+<section id="conditional-probability" class="level3">
+<h3 class="anchored" data-anchor-id="conditional-probability">7. <strong>Conditional Probability</strong>:</h3>
+<p><strong>Conditional probability</strong> is the probability of an event occurring given that another event has already occurred. It’s written as <span class="math inline">\(P(A|B)\)</span> (read as “the probability of <span class="math inline">\(A\)</span> given <span class="math inline">\(B\)</span>”).</p>
+<p>The formula for conditional probability is:</p>
+<p><span class="math display">\[
+P(A|B) = \frac{P(A \cap B)}{P(B)}, \quad \text{for } P(B) &gt; 0
+\]</span></p>
+<ul>
+<li>Example: If you know that a card drawn from a deck is red, the conditional probability that it’s a heart is:</li>
+</ul>
+<p><span class="math display">\[
+P(\text{Heart}|\text{Red}) = \frac{13}{26} = 0.5
+\]</span></p>
+<section id="why-its-important-6" class="level4">
+<h4 class="anchored" data-anchor-id="why-its-important-6">Why It’s Important:</h4>
+<p>Conditional probability is essential for making predictions when new information is known. It’s widely used in fields like medicine (probability of a disease given a symptom) and machine learning (probability of a classification given data).</p>
+</section>
+</section>
+<section id="bayes-theorem" class="level3">
+<h3 class="anchored" data-anchor-id="bayes-theorem">8. <strong>Bayes’ theorem</strong>:</h3>
+<p>This theorem relates two conditional probabilities and allows us to update our beliefs based on new evidence. It is expressed as:</p>
+<p><span class="math display">\[
+P(A|B) = \frac{P(B|A) \times P(A)}{P(B)}, \quad \text{for } P(B) &gt; 0
+\]</span></p>
+<p>where <span class="math inline">\(P(B∣A)\)</span> is the probability of event <span class="math inline">\(B\)</span> given that event <span class="math inline">\(A\)</span> has occurred, <span class="math inline">\(P(A)\)</span> is the prior probability of event <span class="math inline">\(A\)</span>, and <span class="math inline">\(P(B)\)</span> is the total probability of event <span class="math inline">\(B\)</span>.</p>
+<section id="why-its-important-7" class="level4">
+<h4 class="anchored" data-anchor-id="why-its-important-7">Why It’s Important:</h4>
+<p>Bayes’ theorem is specifically used to update the probability of an event based on new evidence or information, effectively allowing for a “reverse” calculation of conditional probabilities.</p>
+</section>
+</section>
+</section>
+<section id="why-are-these-concepts-important-in-the-real-world" class="level2">
+<h2 class="anchored" data-anchor-id="why-are-these-concepts-important-in-the-real-world">Why Are These Concepts Important in the Real World?</h2>
+<ol type="1">
+<li><p><strong>Decision Making Under Uncertainty</strong>: Probability helps us assess risks and make informed decisions in uncertain situations, such as weather predictions, insurance, stock market investments, and clinical trials.</p></li>
+<li><p><strong>Modeling Random Events</strong>: From gambling to genetics, probability models can help describe the behavior of random systems and predict outcomes.</p></li>
+<li><p><strong>Statistical Inference</strong>: Many concepts in inferential statistics (like confidence intervals and hypothesis testing) are built on probability theory, allowing us to draw conclusions about populations from sample data.</p></li>
+<li><p><strong>Everyday Life</strong>: Probability plays a role in daily decisions—whether it’s understanding the likelihood of traffic delays, deciding to carry an umbrella, or assessing the risk of missing a flight.</p></li>
+</ol>
+<p>Understanding the basics of probability provides a foundation for more advanced statistical and mathematical concepts and equips you with the tools to make better predictions in uncertain situations.</p>
+</section>
+<section id="recommended-books" class="level2">
+<h2 class="anchored" data-anchor-id="recommended-books">Recommended books</h2>
+<p>A good starting point for learning probability theory is the book “Introduction to Probability” by Joseph K. Blitzstein and Jessica Hwang. It covers fundamental concepts in probability theory with clear explanations and examples.</p>
 
 
 </section>

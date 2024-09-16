@@ -3,14 +3,159 @@ title: "Basic Probability theory"
 date: "2022-07-26" # change to 2024-09-15
 categories: [probability]
 description: "Basics"
+image: "basic_probability_theory.webp"
 ---
 
 ## Introduction
 
 Probability theory is the branch of mathematics concerned with analyzing random phenomena. It deals with calculating the likelihood of events occurring.
 
+## Concepts
+
 Key concepts include sample spaces, events, probability axioms, conditional probability, independence, and Bayes' theorem.
 
+### 1. **Probability**:
 
-Recommended books:
+**Probability** measures the likelihood that a specific event will occur. It is a number between 0 and 1:
+
+-   **0** means the event will **never happen** (impossible event).
+
+-   **1** means the event is **certain** to happen.
+
+For example, if you flip a fair coin, the probability of getting heads is $P(Heads)=0.5$ (or 50%).
+
+Probability is a way of quantifying how likely an event is to happen. It’s usually expressed as a number between 0 and 1, where:
+
+0 means the event is impossible (it will never happen). 1 means the event is certain (it will definitely happen).
+
+#### Why It’s Important:
+
+Probability helps us make informed decisions when dealing with uncertainty. It’s used in a wide range of fields—finance, engineering, medicine, etc.—to predict outcomes and risks.
+
+### 2. **Sample Space (S)**:
+
+The **sample space** is the set of all possible outcomes of an experiment.
+
+-   Example: When rolling a six-sided die, the sample space is: $S = \{1, 2, 3, 4, 5, 6\}$
+
+The sample space is the set of all possible outcomes of a random experiment. Example: If you roll a die, the sample space is {1, 2, 3, 4, 5, 6}.
+
+#### Why It’s Important:
+
+Understanding the sample space is critical because it defines all possible outcomes and allows us to calculate the probability of specific events happening.
+
+### 3. **Event (E)**:
+
+An **event** is a specific outcome or a set of outcomes within the sample space. It’s the occurrence we’re interested in.
+
+-   Example: In rolling a die, the event "rolling an even number" can be written as: $E = \{2, 4, 6\}$
+
+An event is a subset of the sample space. It represents the outcome or group of outcomes you're interested in. Example: If you want to know the probability of rolling an even number on a die, the event (E) is {2, 4, 6}.
+
+#### Why It’s Important:
+
+An event helps us focus on the outcomes we care about. In the above example, we’re interested in even numbers, and the event is formed by the favorable outcomes (2, 4, and 6).
+
+### 4. **Probability of an Event**:
+
+To calculate the probability of an event $E$, use the formula:
+
+$$
+P(E) = \frac{\text{Number of favorable outcomes}}{\text{Total number of possible outcomes}}
+$$
+
+-   Example: If you want to find the probability of rolling an even number on a six-sided die: $P(\text{Even}) = \frac{3}{6} = 0.5$
+
+#### Why It’s Important:
+
+This formula gives you a precise way to quantify how likely a particular event is, which is essential for making predictions or calculating risks.
+
+### 5. **Complementary Events**:
+
+The **complement** of an event $E$ is the event that $E$ does **not** happen. The probability of the complement is:
+
+$$
+P(\text{Not } E) = 1 - P(E)
+$$ or
+
+$$
+P(A') = 1 - P(A)
+$$
+
+-   Example: If the probability of rain today is 0.3, the probability that it **won't rain** is: $P(\text{No Rain}) = 1 - 0.3 = 0.7$
+
+#### Why It’s Important:
+
+Complementary events cover all possible outcomes. If you know the probability of an event happening, you can easily calculate the probability of it not happening.
+
+### 6. **Independent Events**:
+
+Two events are **independent** if the outcome of one event does **not** affect the outcome of the other.
+
+-   Example: If you flip a coin and roll a die, the result of the coin flip (heads or tails) does not affect what number you roll on the die. So, these events are independent.
+
+For independent events $A$ and $B$, the probability of both happening is:
+
+$$
+P(A \cap B) = P(A) \times P(B)
+$$
+
+or more simply:
+
+$$
+P(A \text{ and } B) = P(A) \times P(B)
+$$
+
+#### Why It’s Important:
+
+Understanding independence is key in more complex probability problems, where you need to calculate the likelihood of multiple events occurring together.
+
+### 7. **Conditional Probability**:
+
+**Conditional probability** is the probability of an event occurring given that another event has already occurred. It’s written as $P(A|B)$ (read as "the probability of $A$ given $B$").
+
+The formula for conditional probability is:
+
+$$
+P(A|B) = \frac{P(A \cap B)}{P(B)}, \quad \text{for } P(B) > 0
+$$
+
+-   Example: If you know that a card drawn from a deck is red, the conditional probability that it’s a heart is:
+
+$$
+P(\text{Heart}|\text{Red}) = \frac{13}{26} = 0.5
+$$
+
+#### Why It’s Important:
+
+Conditional probability is essential for making predictions when new information is known. It’s widely used in fields like medicine (probability of a disease given a symptom) and machine learning (probability of a classification given data).
+
+### 8. **Bayes' theorem**:
+
+This theorem relates two conditional probabilities and allows us to update our beliefs based on new evidence. It is expressed as:
+
+$$
+P(A|B) = \frac{P(B|A) \times P(A)}{P(B)}, \quad \text{for } P(B) > 0
+$$
+
+where $P(B∣A)$ is the probability of event $B$ given that event $A$ has occurred, $P(A)$ is the prior probability of event $A$, and $P(B)$ is the total probability of event $B$.
+
+#### Why It’s Important:
+
+Bayes' theorem is specifically used to update the probability of an event based on new evidence or information, effectively allowing for a "reverse" calculation of conditional probabilities.
+
+## Why Are These Concepts Important in the Real World?
+
+1.  **Decision Making Under Uncertainty**: Probability helps us assess risks and make informed decisions in uncertain situations, such as weather predictions, insurance, stock market investments, and clinical trials.
+
+2.  **Modeling Random Events**: From gambling to genetics, probability models can help describe the behavior of random systems and predict outcomes.
+
+3.  **Statistical Inference**: Many concepts in inferential statistics (like confidence intervals and hypothesis testing) are built on probability theory, allowing us to draw conclusions about populations from sample data.
+
+4.  **Everyday Life**: Probability plays a role in daily decisions—whether it’s understanding the likelihood of traffic delays, deciding to carry an umbrella, or assessing the risk of missing a flight.
+
+Understanding the basics of probability provides a foundation for more advanced statistical and mathematical concepts and equips you with the tools to make better predictions in uncertain situations.
+
+## Recommended books
+
 A good starting point for learning probability theory is the book "Introduction to Probability" by Joseph K. Blitzstein and Jessica Hwang. It covers fundamental concepts in probability theory with clear explanations and examples.
