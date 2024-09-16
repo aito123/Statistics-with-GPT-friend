@@ -1,0 +1,16 @@
+---
+title: "Basic Probability theory"
+date: "2022-07-26" # change to 2024-09-15
+categories: [probability]
+description: "Basics"
+---
+
+## Introduction
+
+Probability theory is the branch of mathematics concerned with analyzing random phenomena. It deals with calculating the likelihood of events occurring.
+
+Key concepts include sample spaces, events, probability axioms, conditional probability, independence, and Bayes' theorem.
+
+
+Recommended books:
+A good starting point for learning probability theory is the book "Introduction to Probability" by Joseph K. Blitzstein and Jessica Hwang. It covers fundamental concepts in probability theory with clear explanations and examples.

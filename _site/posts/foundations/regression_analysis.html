@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2022-07-30">
+<meta name="description" content="linear regression, logistic regression">
 
-<title>Learn statistics with AI - Foundation in mathematics and Statistics</title>
+<title>Learn statistics with AI - Regression analysis</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -78,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Learn statistics with AI</span>
     </a>
   </div>
@@ -89,7 +91,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Summary</span></a>
   </li>  
 </ul>
@@ -104,21 +106,43 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#a11y" id="toc-a11y" class="nav-link active" data-scroll-target="#a11y"><code>a11y</code></a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Foundation in mathematics and Statistics</h1>
-</div>
+<h1 class="title">Regression analysis</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">accessibility</div>
+    <div class="quarto-category">color constrast</div>
+    <div class="quarto-category">highlighting</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    linear regression, logistic regression
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 30, 2022</p>
+    </div>
+  </div>
   
     
   </div>
@@ -128,39 +152,12 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<ol type="1">
-<li><p><strong>Basic Probability Theory</strong>:</p>
-<ul>
-<li><p>Probability theory is the branch of mathematics concerned with analyzing random phenomena. It deals with calculating the likelihood of events occurring.</p></li>
-<li><p>Key concepts include sample spaces, events, probability axioms, conditional probability, independence, and Bayes’ theorem.</p></li>
-<li><p>A good starting point for learning probability theory is the book “Introduction to Probability” by Joseph K. Blitzstein and Jessica Hwang. It covers fundamental concepts in probability theory with clear explanations and examples.</p></li>
-</ul></li>
-<li><p><strong>Descriptive Statistics</strong>:</p>
-<ul>
-<li><p>Descriptive statistics involves methods for summarizing and describing the features of a dataset. It provides simple summaries about the sample and the measures of variability, such as the mean, median, mode, variance, and standard deviation.</p></li>
-<li><p>“Descriptive Statistics” by Robert R. Johnson and Patricia Kuby is a comprehensive textbook that covers basic descriptive statistics concepts and methods.</p></li>
-</ul></li>
-<li><p><strong>Probability Distributions</strong>:</p>
-<ul>
-<li><p>Probability distributions describe the likelihood of each outcome in a sample space.</p></li>
-<li><p>Key distributions include the normal distribution (bell curve), binomial distribution (for binary outcomes), and Poisson distribution (for count data).</p></li>
-<li><p>“Introduction to Probability and Statistics” by William Mendenhall, Robert J. Beaver, and Barbara M. Beaver provides a solid introduction to various probability distributions and their properties.</p></li>
-</ul></li>
-<li><p><strong>Hypothesis Testing</strong>:</p>
-<ul>
-<li><p>Hypothesis testing is a statistical method used to make inferences about a population parameter based on sample data.</p></li>
-<li><p>It involves setting up a null hypothesis (H0) and an alternative hypothesis (Ha), selecting a significance level, conducting a test statistic calculation, and making a decision based on the test statistic and significance level.</p></li>
-<li><p>“Statistics for Business and Economics” by Paul Newbold, William L. Carlson, and Betty Thorne covers hypothesis testing in detail and provides practical examples relevant to business and economics.</p></li>
-</ul></li>
-<li><p><strong>Regression Analysis</strong>:</p>
-<ul>
-<li><p>Regression analysis is a statistical technique used to model the relationship between a dependent variable and one or more independent variables.</p></li>
-<li><p>Linear regression is used when the relationship between the variables is linear, while logistic regression is used when the dependent variable is binary.</p></li>
-<li><p>“An Introduction to Statistical Learning” by Gareth James, Daniela Witten, Trevor Hastie, and Robert Tibshirani is a highly regarded textbook that covers regression analysis and other key machine learning concepts in a clear and accessible manner.</p></li>
-</ul></li>
-</ol>
+<section id="a11y" class="level2">
+<h2 class="anchored" data-anchor-id="a11y"><code>a11y</code></h2>
+<p>Quarto comes with accessible (with respect to color contrast) theme for syntax highlighting: <code>a11y</code>. This theme is adaptive, so it automatically switches between a dark and light mode based upon the theme of the website. It is designed to work well with sites with dark / light mode.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Statistics with GPT friend - Summary</title>
+<title>Learn statistics with AI - Summary</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -66,7 +68,261 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-foundations .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-foundations'] = new List('listing-foundations', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-inferential_statistics .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-inferential_statistics'] = new List('listing-inferential_statistics', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-ml_fundamentals .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-ml_fundamentals'] = new List('listing-ml_fundamentals', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-supervised_learning .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-supervised_learning'] = new List('listing-supervised_learning', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-unsupervised_learning .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-unsupervised_learning'] = new List('listing-unsupervised_learning', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-deep_learning .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-deep_learning'] = new List('listing-deep_learning', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-model_deploy .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-model_deploy'] = new List('listing-model_deploy', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-hands_on .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-hands_on'] = new List('listing-hands_on', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -79,7 +335,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Statistics with GPT friend</span>
+    <span class="navbar-title">Learn statistics with AI</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -92,17 +348,6 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="./index.html" aria-current="page"> 
 <span class="menu-text">Summary</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-topics" role="button" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Topics</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-topics">    
-        <li>
-    <a class="dropdown-item" href="./Topic1.html">
- <span class="dropdown-text">Mathematics and Statistics</span></a>
-  </li>  
-    </ul>
-  </li>
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
@@ -111,14 +356,27 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#foundation-in-mathematics-and-statistics" id="toc-foundation-in-mathematics-and-statistics" class="nav-link active" data-scroll-target="#foundation-in-mathematics-and-statistics">Foundation in Mathematics and Statistics</a></li>
+  <li><a href="#inferential-statistics" id="toc-inferential-statistics" class="nav-link" data-scroll-target="#inferential-statistics">Inferential Statistics</a></li>
+  <li><a href="#machine-learning-fundamentals" id="toc-machine-learning-fundamentals" class="nav-link" data-scroll-target="#machine-learning-fundamentals">Machine Learning Fundamentals</a></li>
+  <li><a href="#supervised-learning-algorithms" id="toc-supervised-learning-algorithms" class="nav-link" data-scroll-target="#supervised-learning-algorithms">Supervised Learning Algorithms</a></li>
+  <li><a href="#unsupervised-learning-algorithms" id="toc-unsupervised-learning-algorithms" class="nav-link" data-scroll-target="#unsupervised-learning-algorithms">Unsupervised Learning Algorithms</a></li>
+  <li><a href="#deep-learning" id="toc-deep-learning" class="nav-link" data-scroll-target="#deep-learning">Deep Learning</a></li>
+  <li><a href="#model-deployment-and-production" id="toc-model-deployment-and-production" class="nav-link" data-scroll-target="#model-deployment-and-production">Model Deployment and Production</a></li>
+  <li><a href="#practical-projects-and-hands-on-experience" id="toc-practical-projects-and-hands-on-experience" class="nav-link" data-scroll-target="#practical-projects-and-hands-on-experience">Practical Projects and Hands-On Experience</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -127,7 +385,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -139,72 +397,328 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<ol type="1">
-<li><p><a href="./Topic1.html"><strong>Foundation in Mathematics and Statistics</strong></a>:</p>
-<ul>
-<li><p>Basic Probability Theory</p></li>
-<li><p>Descriptive Statistics (mean, median, mode, variance, standard deviation)</p></li>
-<li><p>Probability Distributions (normal, binomial, Poisson)</p></li>
-<li><p>Hypothesis Testing (t-tests, chi-square tests, ANOVA)</p></li>
-<li><p>Regression Analysis (linear regression, logistic regression)</p></li>
-</ul></li>
-<li><p><strong>Inferential Statistics</strong>:</p>
-<ul>
-<li><p>Sampling Techniques (random sampling, stratified sampling)</p></li>
-<li><p>Confidence Intervals</p></li>
-<li><p>Hypothesis Testing (null hypothesis, p-values, Type I and Type II errors)</p></li>
-<li><p>Confidence Intervals vs.&nbsp;Hypothesis Testing</p></li>
-<li><p>Power Analysis</p></li>
-</ul></li>
-<li><p><strong>Machine Learning Fundamentals</strong>:</p>
-<ul>
-<li><p>Introduction to Machine Learning</p></li>
-<li><p>Supervised Learning vs.&nbsp;Unsupervised Learning vs.&nbsp;Reinforcement Learning</p></li>
-<li><p>Model Evaluation and Selection (cross-validation, bias-variance tradeoff)</p></li>
-<li><p>Feature Engineering (feature selection, feature scaling)</p></li>
-<li><p>Model Evaluation Metrics (accuracy, precision, recall, F1 score, ROC curve, AUC)</p></li>
-</ul></li>
-<li><p><strong>Supervised Learning Algorithms</strong>:</p>
-<ul>
-<li><p>Linear Regression</p></li>
-<li><p>Logistic Regression</p></li>
-<li><p>Decision Trees</p></li>
-<li><p>Random Forests</p></li>
-<li><p>Support Vector Machines (SVM)</p></li>
-<li><p>k-Nearest Neighbors (k-NN)</p></li>
-<li><p>Naive Bayes</p></li>
-</ul></li>
-<li><p><strong>Unsupervised Learning Algorithms</strong>:</p>
-<ul>
-<li><p>K-Means Clustering</p></li>
-<li><p>Hierarchical Clustering</p></li>
-<li><p>Principal Component Analysis (PCA)</p></li>
-<li><p>t-Distributed Stochastic Neighbor Embedding (t-SNE)</p></li>
-<li><p>Association Rule Learning (Apriori Algorithm)</p></li>
-</ul></li>
-<li><p><strong>Deep Learning</strong>:</p>
-<ul>
-<li><p>Neural Networks Basics</p></li>
-<li><p>Feedforward Neural Networks</p></li>
-<li><p>Convolutional Neural Networks (CNNs)</p></li>
-<li><p>Recurrent Neural Networks (RNNs)</p></li>
-<li><p>Long Short-Term Memory (LSTM) Networks</p></li>
-<li><p>Gated Recurrent Units (GRUs)</p></li>
-</ul></li>
-<li><p><strong>Model Deployment and Production</strong>:</p>
-<ul>
-<li><p>Model Deployment Techniques (RESTful APIs, Docker containers)</p></li>
-<li><p>Model Monitoring and Maintenance</p></li>
-<li><p>Ethical Considerations in Machine Learning</p></li>
-</ul></li>
-<li><p><strong>Practical Projects and Hands-On Experience</strong>:</p>
-<ul>
-<li><p>Work on real-world datasets and projects to apply what you’ve learned.</p></li>
-<li><p>Kaggle competitions, online courses with practical exercises, and personal projects can all be valuable.</p></li>
-</ul></li>
-</ol>
+<section id="foundation-in-mathematics-and-statistics" class="level2">
+<h2 class="anchored" data-anchor-id="foundation-in-mathematics-and-statistics">Foundation in Mathematics and Statistics</h2>
+<div id="listing-foundations" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="probability" data-listing-date-sort="1658811600000" data-listing-file-modified-sort="1726448071678" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="67">
+<a href="./posts/foundations/basic_probability_theory.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Basic Probability theory
+</h5>
+<div class="card-text listing-description">
+Basics
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="accessibility,color constrast,highlighting" data-listing-date-sort="1658898000000" data-listing-file-modified-sort="1726447634683" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="46">
+<a href="./posts/foundations/descriptive_statistics.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Descriptive statistics
+</h5>
+<div class="card-text listing-description">
+mean, median, mode, variance, standard deviation
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="accessibility,color constrast,highlighting" data-listing-date-sort="1658984400000" data-listing-file-modified-sort="1726447639543" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="46">
+<a href="./posts/foundations/probability_distributions.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Probability distributions
+</h5>
+<div class="card-text listing-description">
+normal, binomial, Poisson
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="accessibility,color constrast,highlighting" data-listing-date-sort="1659070800000" data-listing-file-modified-sort="1726447643418" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="46">
+<a href="./posts/foundations/hypothesis_testing.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Hypothesis testing
+</h5>
+<div class="card-text listing-description">
+t-tests, chi-square tests, ANOVA
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="accessibility,color constrast,highlighting" data-listing-date-sort="1659157200000" data-listing-file-modified-sort="1726447653526" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="46">
+<a href="./posts/foundations/regression_analysis.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Regression analysis
+</h5>
+<div class="card-text listing-description">
+linear regression, logistic regression
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="inferential-statistics" class="level2">
+<h2 class="anchored" data-anchor-id="inferential-statistics">Inferential Statistics</h2>
+<div id="listing-inferential_statistics" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="accessibility,color constrast,highlighting" data-listing-date-sort="1658811600000" data-listing-file-modified-sort="1726435140705" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="46">
+<a href="./posts/inferential_statistics/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Accessibility: <code>a11y</code> theme2222
+</h5>
+<div class="card-text listing-description">
+Quarto comes with accessible (with respect to color contrast) theme for syntax highlighting: <code>a11y</code>. This theme is adaptive, so it automatically switches between a dark and…
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<pre><code>-   Sampling Techniques (random sampling, stratified sampling)
+
+-   Confidence Intervals
+
+-   Hypothesis Testing (null hypothesis, p-values, Type I and Type II errors)
+
+-   Confidence Intervals vs. Hypothesis Testing
+
+-   Power Analysis</code></pre>
+</section>
+<section id="machine-learning-fundamentals" class="level2">
+<h2 class="anchored" data-anchor-id="machine-learning-fundamentals">Machine Learning Fundamentals</h2>
+<div id="listing-ml_fundamentals" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="accessibility,color constrast,highlighting" data-listing-date-sort="1658811600000" data-listing-file-modified-sort="1726435130837" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="46">
+<a href="./posts/ml_fundamentals/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Accessibility: <code>a11y</code> theme
+</h5>
+<div class="card-text listing-description">
+Quarto comes with accessible (with respect to color contrast) theme for syntax highlighting: <code>a11y</code>. This theme is adaptive, so it automatically switches between a dark and…
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<pre><code>-   Introduction to Machine Learning
+
+-   Supervised Learning vs. Unsupervised Learning vs. Reinforcement Learning
+
+-   Model Evaluation and Selection (cross-validation, bias-variance tradeoff)
+
+-   Feature Engineering (feature selection, feature scaling)
+
+-   Model Evaluation Metrics (accuracy, precision, recall, F1 score, ROC curve, AUC)</code></pre>
+</section>
+<section id="supervised-learning-algorithms" class="level2">
+<h2 class="anchored" data-anchor-id="supervised-learning-algorithms">Supervised Learning Algorithms</h2>
+<div id="listing-supervised_learning" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="accessibility,color constrast,highlighting" data-listing-date-sort="1658811600000" data-listing-file-modified-sort="1726435130837" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="46">
+<a href="./posts/supervised_learning/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Accessibility: <code>a11y</code> theme
+</h5>
+<div class="card-text listing-description">
+Quarto comes with accessible (with respect to color contrast) theme for syntax highlighting: <code>a11y</code>. This theme is adaptive, so it automatically switches between a dark and…
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<pre><code>-   Linear Regression
+
+-   Logistic Regression
+
+-   Decision Trees
+
+-   Random Forests
+
+-   Support Vector Machines (SVM)
+
+-   k-Nearest Neighbors (k-NN)
+
+-   Naive Bayes</code></pre>
+</section>
+<section id="unsupervised-learning-algorithms" class="level2">
+<h2 class="anchored" data-anchor-id="unsupervised-learning-algorithms">Unsupervised Learning Algorithms</h2>
+<div id="listing-unsupervised_learning" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="accessibility,color constrast,highlighting" data-listing-date-sort="1658811600000" data-listing-file-modified-sort="1726435130837" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="46">
+<a href="./posts/unsupervised_learning/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Accessibility: <code>a11y</code> theme
+</h5>
+<div class="card-text listing-description">
+Quarto comes with accessible (with respect to color contrast) theme for syntax highlighting: <code>a11y</code>. This theme is adaptive, so it automatically switches between a dark and…
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<pre><code>-   K-Means Clustering
+
+-   Hierarchical Clustering
+
+-   Principal Component Analysis (PCA)
+
+-   t-Distributed Stochastic Neighbor Embedding (t-SNE)
+
+-   Association Rule Learning (Apriori Algorithm)</code></pre>
+</section>
+<section id="deep-learning" class="level2">
+<h2 class="anchored" data-anchor-id="deep-learning">Deep Learning</h2>
+<div id="listing-deep_learning" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="accessibility,color constrast,highlighting" data-listing-date-sort="1658811600000" data-listing-file-modified-sort="1726435130837" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="46">
+<a href="./posts/deep_learning/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Accessibility: <code>a11y</code> theme
+</h5>
+<div class="card-text listing-description">
+Quarto comes with accessible (with respect to color contrast) theme for syntax highlighting: <code>a11y</code>. This theme is adaptive, so it automatically switches between a dark and…
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<pre><code>-   Neural Networks Basics
+
+-   Feedforward Neural Networks
+
+-   Convolutional Neural Networks (CNNs)
+
+-   Recurrent Neural Networks (RNNs)
+
+-   Long Short-Term Memory (LSTM) Networks
+
+-   Gated Recurrent Units (GRUs)</code></pre>
+</section>
+<section id="model-deployment-and-production" class="level2">
+<h2 class="anchored" data-anchor-id="model-deployment-and-production">Model Deployment and Production</h2>
+<div id="listing-model_deploy" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="accessibility,color constrast,highlighting" data-listing-date-sort="1658811600000" data-listing-file-modified-sort="1726435130837" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="46">
+<a href="./posts/model_deploy/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Accessibility: <code>a11y</code> theme
+</h5>
+<div class="card-text listing-description">
+Quarto comes with accessible (with respect to color contrast) theme for syntax highlighting: <code>a11y</code>. This theme is adaptive, so it automatically switches between a dark and…
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<pre><code>-   Model Deployment Techniques (RESTful APIs, Docker containers)
+
+-   Model Monitoring and Maintenance
+
+-   Ethical Considerations in Machine Learning</code></pre>
+</section>
+<section id="practical-projects-and-hands-on-experience" class="level2">
+<h2 class="anchored" data-anchor-id="practical-projects-and-hands-on-experience">Practical Projects and Hands-On Experience</h2>
+<div id="listing-hands_on" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="accessibility,color constrast,highlighting" data-listing-date-sort="1658811600000" data-listing-file-modified-sort="1726435130837" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="46">
+<a href="./posts/hands_on/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Accessibility: <code>a11y</code> theme
+</h5>
+<div class="card-text listing-description">
+Quarto comes with accessible (with respect to color contrast) theme for syntax highlighting: <code>a11y</code>. This theme is adaptive, so it automatically switches between a dark and…
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<pre><code>-   Work on real-world datasets and projects to apply what you've learned.
+
+-   Kaggle competitions, online courses with practical exercises, and personal projects can all be valuable.</code></pre>
 
 
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

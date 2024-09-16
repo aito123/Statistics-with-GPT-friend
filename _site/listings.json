@@ -1,0 +1,19 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/foundations/basic_probability_theory.html",
+      "/posts/foundations/descriptive_statistics.html",
+      "/posts/foundations/probability_distributions.html",
+      "/posts/foundations/hypothesis_testing.html",
+      "/posts/foundations/regression_analysis.html",
+      "/posts/inferential_statistics/index.html",
+      "/posts/ml_fundamentals/index.html",
+      "/posts/supervised_learning/index.html",
+      "/posts/unsupervised_learning/index.html",
+      "/posts/deep_learning/index.html",
+      "/posts/model_deploy/index.html",
+      "/posts/hands_on/index.html"
+    ]
+  }
+]

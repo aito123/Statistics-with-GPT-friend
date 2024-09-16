@@ -4,7 +4,147 @@
     "href": "index.html",
     "title": "Summary",
     "section": "",
-    "text": "Foundation in Mathematics and Statistics:\n\nBasic Probability Theory\nDescriptive Statistics (mean, median, mode, variance, standard deviation)\nProbability Distributions (normal, binomial, Poisson)\nHypothesis Testing (t-tests, chi-square tests, ANOVA)\nRegression Analysis (linear regression, logistic regression)\n\nInferential Statistics:\n\nSampling Techniques (random sampling, stratified sampling)\nConfidence Intervals\nHypothesis Testing (null hypothesis, p-values, Type I and Type II errors)\nConfidence Intervals vs. Hypothesis Testing\nPower Analysis\n\nMachine Learning Fundamentals:\n\nIntroduction to Machine Learning\nSupervised Learning vs. Unsupervised Learning vs. Reinforcement Learning\nModel Evaluation and Selection (cross-validation, bias-variance tradeoff)\nFeature Engineering (feature selection, feature scaling)\nModel Evaluation Metrics (accuracy, precision, recall, F1 score, ROC curve, AUC)\n\nSupervised Learning Algorithms:\n\nLinear Regression\nLogistic Regression\nDecision Trees\nRandom Forests\nSupport Vector Machines (SVM)\nk-Nearest Neighbors (k-NN)\nNaive Bayes\n\nUnsupervised Learning Algorithms:\n\nK-Means Clustering\nHierarchical Clustering\nPrincipal Component Analysis (PCA)\nt-Distributed Stochastic Neighbor Embedding (t-SNE)\nAssociation Rule Learning (Apriori Algorithm)\n\nDeep Learning:\n\nNeural Networks Basics\nFeedforward Neural Networks\nConvolutional Neural Networks (CNNs)\nRecurrent Neural Networks (RNNs)\nLong Short-Term Memory (LSTM) Networks\nGated Recurrent Units (GRUs)\n\nModel Deployment and Production:\n\nModel Deployment Techniques (RESTful APIs, Docker containers)\nModel Monitoring and Maintenance\nEthical Considerations in Machine Learning\n\nPractical Projects and Hands-On Experience:\n\nWork on real-world datasets and projects to apply what you’ve learned.\nKaggle competitions, online courses with practical exercises, and personal projects can all be valuable."
+    "text": "Basics\n\n\n\n\n\n\n\n\n\n\n\n\nmean, median, mode, variance, standard deviation\n\n\n\n\n\n\n\n\n\n\n\n\nnormal, binomial, Poisson\n\n\n\n\n\n\n\n\n\n\n\n\nt-tests, chi-square tests, ANOVA\n\n\n\n\n\n\n\n\n\n\n\n\nlinear regression, logistic regression\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#foundation-in-mathematics-and-statistics",
+    "href": "index.html#foundation-in-mathematics-and-statistics",
+    "title": "Summary",
+    "section": "",
+    "text": "Basics\n\n\n\n\n\n\n\n\n\n\n\n\nmean, median, mode, variance, standard deviation\n\n\n\n\n\n\n\n\n\n\n\n\nnormal, binomial, Poisson\n\n\n\n\n\n\n\n\n\n\n\n\nt-tests, chi-square tests, ANOVA\n\n\n\n\n\n\n\n\n\n\n\n\nlinear regression, logistic regression\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#inferential-statistics",
+    "href": "index.html#inferential-statistics",
+    "title": "Summary",
+    "section": "Inferential Statistics",
+    "text": "Inferential Statistics\n\n\n\n\n\n\n\n\nAccessibility: a11y theme2222\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\n-   Sampling Techniques (random sampling, stratified sampling)\n\n-   Confidence Intervals\n\n-   Hypothesis Testing (null hypothesis, p-values, Type I and Type II errors)\n\n-   Confidence Intervals vs. Hypothesis Testing\n\n-   Power Analysis"
+  },
+  {
+    "objectID": "index.html#machine-learning-fundamentals",
+    "href": "index.html#machine-learning-fundamentals",
+    "title": "Summary",
+    "section": "Machine Learning Fundamentals",
+    "text": "Machine Learning Fundamentals\n\n\n\n\n\n\n\n\nAccessibility: a11y theme\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\n-   Introduction to Machine Learning\n\n-   Supervised Learning vs. Unsupervised Learning vs. Reinforcement Learning\n\n-   Model Evaluation and Selection (cross-validation, bias-variance tradeoff)\n\n-   Feature Engineering (feature selection, feature scaling)\n\n-   Model Evaluation Metrics (accuracy, precision, recall, F1 score, ROC curve, AUC)"
+  },
+  {
+    "objectID": "index.html#supervised-learning-algorithms",
+    "href": "index.html#supervised-learning-algorithms",
+    "title": "Summary",
+    "section": "Supervised Learning Algorithms",
+    "text": "Supervised Learning Algorithms\n\n\n\n\n\n\n\n\nAccessibility: a11y theme\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\n-   Linear Regression\n\n-   Logistic Regression\n\n-   Decision Trees\n\n-   Random Forests\n\n-   Support Vector Machines (SVM)\n\n-   k-Nearest Neighbors (k-NN)\n\n-   Naive Bayes"
+  },
+  {
+    "objectID": "index.html#unsupervised-learning-algorithms",
+    "href": "index.html#unsupervised-learning-algorithms",
+    "title": "Summary",
+    "section": "Unsupervised Learning Algorithms",
+    "text": "Unsupervised Learning Algorithms\n\n\n\n\n\n\n\n\nAccessibility: a11y theme\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\n-   K-Means Clustering\n\n-   Hierarchical Clustering\n\n-   Principal Component Analysis (PCA)\n\n-   t-Distributed Stochastic Neighbor Embedding (t-SNE)\n\n-   Association Rule Learning (Apriori Algorithm)"
+  },
+  {
+    "objectID": "index.html#deep-learning",
+    "href": "index.html#deep-learning",
+    "title": "Summary",
+    "section": "Deep Learning",
+    "text": "Deep Learning\n\n\n\n\n\n\n\n\nAccessibility: a11y theme\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\n-   Neural Networks Basics\n\n-   Feedforward Neural Networks\n\n-   Convolutional Neural Networks (CNNs)\n\n-   Recurrent Neural Networks (RNNs)\n\n-   Long Short-Term Memory (LSTM) Networks\n\n-   Gated Recurrent Units (GRUs)"
+  },
+  {
+    "objectID": "index.html#model-deployment-and-production",
+    "href": "index.html#model-deployment-and-production",
+    "title": "Summary",
+    "section": "Model Deployment and Production",
+    "text": "Model Deployment and Production\n\n\n\n\n\n\n\n\nAccessibility: a11y theme\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\n-   Model Deployment Techniques (RESTful APIs, Docker containers)\n\n-   Model Monitoring and Maintenance\n\n-   Ethical Considerations in Machine Learning"
+  },
+  {
+    "objectID": "index.html#practical-projects-and-hands-on-experience",
+    "href": "index.html#practical-projects-and-hands-on-experience",
+    "title": "Summary",
+    "section": "Practical Projects and Hands-On Experience",
+    "text": "Practical Projects and Hands-On Experience\n\n\n\n\n\n\n\n\nAccessibility: a11y theme\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\n-   Work on real-world datasets and projects to apply what you've learned.\n\n-   Kaggle competitions, online courses with practical exercises, and personal projects can all be valuable."
+  },
+  {
+    "objectID": "posts/inferential_statistics/index.html",
+    "href": "posts/inferential_statistics/index.html",
+    "title": "Accessibility: a11y theme2222",
+    "section": "",
+    "text": "Quarto comes with accessible (with respect to color contrast) theme for syntax highlighting: a11y. This theme is adaptive, so it automatically switches between a dark and light mode based upon the theme of the website. It is designed to work well with sites with dark / light mode."
+  },
+  {
+    "objectID": "posts/inferential_statistics/index.html#gsdgdsdg",
+    "href": "posts/inferential_statistics/index.html#gsdgdsdg",
+    "title": "Accessibility: a11y theme2222",
+    "section": "",
+    "text": "Quarto comes with accessible (with respect to color contrast) theme for syntax highlighting: a11y. This theme is adaptive, so it automatically switches between a dark and light mode based upon the theme of the website. It is designed to work well with sites with dark / light mode."
+  },
+  {
+    "objectID": "posts/deep_learning/index.html",
+    "href": "posts/deep_learning/index.html",
+    "title": "Accessibility: a11y theme",
+    "section": "",
+    "text": "Quarto comes with accessible (with respect to color contrast) theme for syntax highlighting: a11y. This theme is adaptive, so it automatically switches between a dark and light mode based upon the theme of the website. It is designed to work well with sites with dark / light mode."
+  },
+  {
+    "objectID": "posts/deep_learning/index.html#a11y",
+    "href": "posts/deep_learning/index.html#a11y",
+    "title": "Accessibility: a11y theme",
+    "section": "",
+    "text": "Quarto comes with accessible (with respect to color contrast) theme for syntax highlighting: a11y. This theme is adaptive, so it automatically switches between a dark and light mode based upon the theme of the website. It is designed to work well with sites with dark / light mode."
+  },
+  {
+    "objectID": "posts/foundations/regression_analysis.html",
+    "href": "posts/foundations/regression_analysis.html",
+    "title": "Regression analysis",
+    "section": "",
+    "text": "Quarto comes with accessible (with respect to color contrast) theme for syntax highlighting: a11y. This theme is adaptive, so it automatically switches between a dark and light mode based upon the theme of the website. It is designed to work well with sites with dark / light mode."
+  },
+  {
+    "objectID": "posts/foundations/regression_analysis.html#a11y",
+    "href": "posts/foundations/regression_analysis.html#a11y",
+    "title": "Regression analysis",
+    "section": "",
+    "text": "Quarto comes with accessible (with respect to color contrast) theme for syntax highlighting: a11y. This theme is adaptive, so it automatically switches between a dark and light mode based upon the theme of the website. It is designed to work well with sites with dark / light mode."
+  },
+  {
+    "objectID": "posts/foundations/hypothesis_testing.html",
+    "href": "posts/foundations/hypothesis_testing.html",
+    "title": "Hypothesis testing",
+    "section": "",
+    "text": "Quarto comes with accessible (with respect to color contrast) theme for syntax highlighting: a11y. This theme is adaptive, so it automatically switches between a dark and light mode based upon the theme of the website. It is designed to work well with sites with dark / light mode."
+  },
+  {
+    "objectID": "posts/foundations/hypothesis_testing.html#a11y",
+    "href": "posts/foundations/hypothesis_testing.html#a11y",
+    "title": "Hypothesis testing",
+    "section": "",
+    "text": "Quarto comes with accessible (with respect to color contrast) theme for syntax highlighting: a11y. This theme is adaptive, so it automatically switches between a dark and light mode based upon the theme of the website. It is designed to work well with sites with dark / light mode."
+  },
+  {
+    "objectID": "posts/model_deploy/index.html",
+    "href": "posts/model_deploy/index.html",
+    "title": "Accessibility: a11y theme",
+    "section": "",
+    "text": "Quarto comes with accessible (with respect to color contrast) theme for syntax highlighting: a11y. This theme is adaptive, so it automatically switches between a dark and light mode based upon the theme of the website. It is designed to work well with sites with dark / light mode."
+  },
+  {
+    "objectID": "posts/model_deploy/index.html#a11y",
+    "href": "posts/model_deploy/index.html#a11y",
+    "title": "Accessibility: a11y theme",
+    "section": "",
+    "text": "Quarto comes with accessible (with respect to color contrast) theme for syntax highlighting: a11y. This theme is adaptive, so it automatically switches between a dark and light mode based upon the theme of the website. It is designed to work well with sites with dark / light mode."
+  },
+  {
+    "objectID": "posts/ml_fundamentals/index.html",
+    "href": "posts/ml_fundamentals/index.html",
+    "title": "Accessibility: a11y theme",
+    "section": "",
+    "text": "Quarto comes with accessible (with respect to color contrast) theme for syntax highlighting: a11y. This theme is adaptive, so it automatically switches between a dark and light mode based upon the theme of the website. It is designed to work well with sites with dark / light mode."
+  },
+  {
+    "objectID": "posts/ml_fundamentals/index.html#a11y",
+    "href": "posts/ml_fundamentals/index.html#a11y",
+    "title": "Accessibility: a11y theme",
+    "section": "",
+    "text": "Quarto comes with accessible (with respect to color contrast) theme for syntax highlighting: a11y. This theme is adaptive, so it automatically switches between a dark and light mode based upon the theme of the website. It is designed to work well with sites with dark / light mode."
   },
   {
     "objectID": "Topic1.html",
@@ -12,5 +152,89 @@
     "title": "Foundation in mathematics and Statistics",
     "section": "",
     "text": "Basic Probability Theory:\n\nProbability theory is the branch of mathematics concerned with analyzing random phenomena. It deals with calculating the likelihood of events occurring.\nKey concepts include sample spaces, events, probability axioms, conditional probability, independence, and Bayes’ theorem.\nA good starting point for learning probability theory is the book “Introduction to Probability” by Joseph K. Blitzstein and Jessica Hwang. It covers fundamental concepts in probability theory with clear explanations and examples.\n\nDescriptive Statistics:\n\nDescriptive statistics involves methods for summarizing and describing the features of a dataset. It provides simple summaries about the sample and the measures of variability, such as the mean, median, mode, variance, and standard deviation.\n“Descriptive Statistics” by Robert R. Johnson and Patricia Kuby is a comprehensive textbook that covers basic descriptive statistics concepts and methods.\n\nProbability Distributions:\n\nProbability distributions describe the likelihood of each outcome in a sample space.\nKey distributions include the normal distribution (bell curve), binomial distribution (for binary outcomes), and Poisson distribution (for count data).\n“Introduction to Probability and Statistics” by William Mendenhall, Robert J. Beaver, and Barbara M. Beaver provides a solid introduction to various probability distributions and their properties.\n\nHypothesis Testing:\n\nHypothesis testing is a statistical method used to make inferences about a population parameter based on sample data.\nIt involves setting up a null hypothesis (H0) and an alternative hypothesis (Ha), selecting a significance level, conducting a test statistic calculation, and making a decision based on the test statistic and significance level.\n“Statistics for Business and Economics” by Paul Newbold, William L. Carlson, and Betty Thorne covers hypothesis testing in detail and provides practical examples relevant to business and economics.\n\nRegression Analysis:\n\nRegression analysis is a statistical technique used to model the relationship between a dependent variable and one or more independent variables.\nLinear regression is used when the relationship between the variables is linear, while logistic regression is used when the dependent variable is binary.\n“An Introduction to Statistical Learning” by Gareth James, Daniela Witten, Trevor Hastie, and Robert Tibshirani is a highly regarded textbook that covers regression analysis and other key machine learning concepts in a clear and accessible manner."
+  },
+  {
+    "objectID": "posts/hands_on/index.html",
+    "href": "posts/hands_on/index.html",
+    "title": "Accessibility: a11y theme",
+    "section": "",
+    "text": "Quarto comes with accessible (with respect to color contrast) theme for syntax highlighting: a11y. This theme is adaptive, so it automatically switches between a dark and light mode based upon the theme of the website. It is designed to work well with sites with dark / light mode."
+  },
+  {
+    "objectID": "posts/hands_on/index.html#a11y",
+    "href": "posts/hands_on/index.html#a11y",
+    "title": "Accessibility: a11y theme",
+    "section": "",
+    "text": "Quarto comes with accessible (with respect to color contrast) theme for syntax highlighting: a11y. This theme is adaptive, so it automatically switches between a dark and light mode based upon the theme of the website. It is designed to work well with sites with dark / light mode."
+  },
+  {
+    "objectID": "posts/foundations/basic_probability_theory.html",
+    "href": "posts/foundations/basic_probability_theory.html",
+    "title": "Basic Probability theory",
+    "section": "",
+    "text": "Probability theory is the branch of mathematics concerned with analyzing random phenomena. It deals with calculating the likelihood of events occurring.\nKey concepts include sample spaces, events, probability axioms, conditional probability, independence, and Bayes’ theorem.\nRecommended books: A good starting point for learning probability theory is the book “Introduction to Probability” by Joseph K. Blitzstein and Jessica Hwang. It covers fundamental concepts in probability theory with clear explanations and examples."
+  },
+  {
+    "objectID": "posts/foundations/basic_probability_theory.html#introduction",
+    "href": "posts/foundations/basic_probability_theory.html#introduction",
+    "title": "Basic Probability theory",
+    "section": "",
+    "text": "Probability theory is the branch of mathematics concerned with analyzing random phenomena. It deals with calculating the likelihood of events occurring.\nKey concepts include sample spaces, events, probability axioms, conditional probability, independence, and Bayes’ theorem.\nRecommended books: A good starting point for learning probability theory is the book “Introduction to Probability” by Joseph K. Blitzstein and Jessica Hwang. It covers fundamental concepts in probability theory with clear explanations and examples."
+  },
+  {
+    "objectID": "posts/foundations/descriptive_statistics.html",
+    "href": "posts/foundations/descriptive_statistics.html",
+    "title": "Descriptive statistics",
+    "section": "",
+    "text": "Quarto comes with accessible (with respect to color contrast) theme for syntax highlighting: a11y. This theme is adaptive, so it automatically switches between a dark and light mode based upon the theme of the website. It is designed to work well with sites with dark / light mode."
+  },
+  {
+    "objectID": "posts/foundations/descriptive_statistics.html#a11y",
+    "href": "posts/foundations/descriptive_statistics.html#a11y",
+    "title": "Descriptive statistics",
+    "section": "",
+    "text": "Quarto comes with accessible (with respect to color contrast) theme for syntax highlighting: a11y. This theme is adaptive, so it automatically switches between a dark and light mode based upon the theme of the website. It is designed to work well with sites with dark / light mode."
+  },
+  {
+    "objectID": "posts/foundations/probability_distributions.html",
+    "href": "posts/foundations/probability_distributions.html",
+    "title": "Probability distributions",
+    "section": "",
+    "text": "Quarto comes with accessible (with respect to color contrast) theme for syntax highlighting: a11y. This theme is adaptive, so it automatically switches between a dark and light mode based upon the theme of the website. It is designed to work well with sites with dark / light mode."
+  },
+  {
+    "objectID": "posts/foundations/probability_distributions.html#a11y",
+    "href": "posts/foundations/probability_distributions.html#a11y",
+    "title": "Probability distributions",
+    "section": "",
+    "text": "Quarto comes with accessible (with respect to color contrast) theme for syntax highlighting: a11y. This theme is adaptive, so it automatically switches between a dark and light mode based upon the theme of the website. It is designed to work well with sites with dark / light mode."
+  },
+  {
+    "objectID": "posts/unsupervised_learning/index.html",
+    "href": "posts/unsupervised_learning/index.html",
+    "title": "Accessibility: a11y theme",
+    "section": "",
+    "text": "Quarto comes with accessible (with respect to color contrast) theme for syntax highlighting: a11y. This theme is adaptive, so it automatically switches between a dark and light mode based upon the theme of the website. It is designed to work well with sites with dark / light mode."
+  },
+  {
+    "objectID": "posts/unsupervised_learning/index.html#a11y",
+    "href": "posts/unsupervised_learning/index.html#a11y",
+    "title": "Accessibility: a11y theme",
+    "section": "",
+    "text": "Quarto comes with accessible (with respect to color contrast) theme for syntax highlighting: a11y. This theme is adaptive, so it automatically switches between a dark and light mode based upon the theme of the website. It is designed to work well with sites with dark / light mode."
+  },
+  {
+    "objectID": "posts/supervised_learning/index.html",
+    "href": "posts/supervised_learning/index.html",
+    "title": "Accessibility: a11y theme",
+    "section": "",
+    "text": "Quarto comes with accessible (with respect to color contrast) theme for syntax highlighting: a11y. This theme is adaptive, so it automatically switches between a dark and light mode based upon the theme of the website. It is designed to work well with sites with dark / light mode."
+  },
+  {
+    "objectID": "posts/supervised_learning/index.html#a11y",
+    "href": "posts/supervised_learning/index.html#a11y",
+    "title": "Accessibility: a11y theme",
+    "section": "",
+    "text": "Quarto comes with accessible (with respect to color contrast) theme for syntax highlighting: a11y. This theme is adaptive, so it automatically switches between a dark and light mode based upon the theme of the website. It is designed to work well with sites with dark / light mode."
   }
 ]

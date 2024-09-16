@@ -1,0 +1,12 @@
+---
+title: "Regression analysis"
+date: "2022-07-30"
+categories: [accessibility, color constrast, highlighting]
+description: "linear regression, logistic regression"
+---
+
+## `a11y`
+
+Quarto comes with accessible (with respect to color contrast) theme for syntax highlighting: `a11y`.
+This theme is adaptive, so it automatically switches between a dark and light mode based upon the theme of the website.
+It is designed to work well with sites with dark / light mode.

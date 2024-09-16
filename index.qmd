@@ -1,20 +1,54 @@
 ---
 title: Summary
+format: 
+  html: 
+    page-layout: full
+listing: 
+  - id: foundations
+    contents: "posts/foundations/*.qmd"
+    type: grid
+    fields: [image, title, description] 
+    sort: "date"
+    image-height: 150px
+  - id: inferential_statistics
+    contents: "posts/inferential_statistics/*.qmd"
+    type: grid
+    fields: [image, title, description] 
+  - id: ml_fundamentals
+    contents: "posts/ml_fundamentals/*.qmd"
+    type: grid
+    fields: [image, title, description] 
+  - id: supervised_learning
+    contents: "posts/supervised_learning/*.qmd"
+    type: grid
+    fields: [image, title, description] 
+  - id: unsupervised_learning
+    contents: "posts/unsupervised_learning/*.qmd"
+    type: grid
+    fields: [image, title, description] 
+  - id: deep_learning
+    contents: "posts/deep_learning/*.qmd"
+    type: grid
+    fields: [image, title, description] 
+  - id: model_deploy
+    contents: "posts/model_deploy/*.qmd"
+    type: grid
+    fields: [image, title, description] 
+  - id: hands_on
+    contents: "posts/hands_on/*.qmd"
+    type: grid
+    fields: [image, title, description] 
 ---
 
-1.  [**Foundation in Mathematics and Statistics**](Topic1.qmd):
+## Foundation in Mathematics and Statistics
 
-    -   Basic Probability Theory
+:::{#foundations}
+:::
 
-    -   Descriptive Statistics (mean, median, mode, variance, standard deviation)
+## Inferential Statistics
 
-    -   Probability Distributions (normal, binomial, Poisson)
-
-    -   Hypothesis Testing (t-tests, chi-square tests, ANOVA)
-
-    -   Regression Analysis (linear regression, logistic regression)
-
-2.  **Inferential Statistics**:
+:::{#inferential_statistics}
+:::
 
     -   Sampling Techniques (random sampling, stratified sampling)
 
@@ -26,7 +60,10 @@ title: Summary
 
     -   Power Analysis
 
-3.  **Machine Learning Fundamentals**:
+## Machine Learning Fundamentals
+
+:::{#ml_fundamentals}
+:::
 
     -   Introduction to Machine Learning
 
@@ -38,7 +75,10 @@ title: Summary
 
     -   Model Evaluation Metrics (accuracy, precision, recall, F1 score, ROC curve, AUC)
 
-4.  **Supervised Learning Algorithms**:
+## Supervised Learning Algorithms
+
+:::{#supervised_learning}
+:::
 
     -   Linear Regression
 
@@ -54,7 +94,10 @@ title: Summary
 
     -   Naive Bayes
 
-5.  **Unsupervised Learning Algorithms**:
+## Unsupervised Learning Algorithms
+
+:::{#unsupervised_learning}
+:::
 
     -   K-Means Clustering
 
@@ -66,7 +109,10 @@ title: Summary
 
     -   Association Rule Learning (Apriori Algorithm)
 
-6.  **Deep Learning**:
+## Deep Learning
+
+:::{#deep_learning}
+:::
 
     -   Neural Networks Basics
 
@@ -80,7 +126,10 @@ title: Summary
 
     -   Gated Recurrent Units (GRUs)
 
-7.  **Model Deployment and Production**:
+## Model Deployment and Production
+
+:::{#model_deploy}
+:::
 
     -   Model Deployment Techniques (RESTful APIs, Docker containers)
 
@@ -88,8 +137,12 @@ title: Summary
 
     -   Ethical Considerations in Machine Learning
 
-8.  **Practical Projects and Hands-On Experience**:
+## Practical Projects and Hands-On Experience
+
+:::{#hands_on}
+:::
 
     -   Work on real-world datasets and projects to apply what you've learned.
 
     -   Kaggle competitions, online courses with practical exercises, and personal projects can all be valuable.
+
